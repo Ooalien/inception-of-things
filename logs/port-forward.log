@@ -1,0 +1,2 @@
+Forwarding from 0.0.0.0:9900 -> 8080
+E0731 21:14:24.086035    7919 portforward.go:233] lost connection to pod

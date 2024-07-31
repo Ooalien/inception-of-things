@@ -1,7 +1,7 @@
 Vagrant.configure("2") do |config|
     config.vm.define "mamali" do |control|
       control.vm.box = "bento/ubuntu-22.04"
-      control.vm.hostname = "mamali"
+      control.vm.hostname = "ooalien"
       control.vm.network "private_network", ip: "192.168.56.112"
       control.vm.network "forwarded_port", guest: 8080, host: 8080
       control.vm.network "forwarded_port", guest: 9090, host: 9090
